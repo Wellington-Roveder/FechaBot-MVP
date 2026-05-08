@@ -1,0 +1,26 @@
+# Ambiente
+.env
+.venv
+venv/
+
+# Dados sensíveis
+*.xlsx
+*.xls
+
+# Logs
+logs/
+
+# Build e distribuição
+build/
+dist/
+*.exe
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
