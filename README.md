@@ -2,6 +2,9 @@
 
 > Projeto real desenvolvido e implantado em produção para a loja **Pollo Loko, São José dos Campos - SP**.
 
+> Sistema desktop em produção utilizado diariamente pela Pollo Loko para automação do fechamento operacional.
+
+> Desenvolvido em Python com foco em automação, confiabilidade e usabilidade para usuários não técnicos.
 ---
 
 ## 📌 O Problema
@@ -33,11 +36,21 @@ pip install -r requirements.txt
 
 ## 🖥️ Interface
 
+
+### Tela principal
 ![Tela principal](assets/app_rodadando.png)
-![Funcionamento com log](assets/logger.info.png)
+### Tratamento de erro
 ![Leitura do Arquivo](assets/leu_arquivo.png)
 ![Validação do arquivo](assets/validacao.png)
-![Copiou o arquivo](assets/copiou_mensagem.png)
+
+### Mensagem gerada com sucesso
+![Mensagem Copiada](assets/copiou_mensagem.png)
+![Funcionamento com log](assets/logger.info.png)
+
+### 🎬 Demonstração em funcionamento
+O processo completo leva menos de 30 segundos:
+![Fluxo do sistema](assets/fechabot_demo.gif)
+
 
 ---
 
