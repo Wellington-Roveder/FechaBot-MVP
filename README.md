@@ -79,6 +79,16 @@ Os campos de janta e cortesia podem ficar vazios. Exemplos de valores aceitos:
 pollo:3, mix:4, 1/2 fit:6
 ```
 
+## Testes
+
+Com as dependências instaladas e o ambiente virtual ativado, execute:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+A suíte cobre a leitura e consolidação da planilha, as validações da interface, a geração do relatório, o fluxo de seleção de arquivo e a configuração do logger.
+
 ## Formato da planilha
 
 A planilha deve conter, no mínimo, as seguintes colunas:
